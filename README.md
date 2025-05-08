@@ -20,23 +20,12 @@ The dataset is the **Pima Indians Diabetes Database**, a popular dataset from [K
 
 - **Support Vector Machine (SVM)**: A powerful classification algorithm effective for high-dimensional spaces and commonly used for classification tasks.
 
-## 📁 Project Structure
-
-diabetes-prediction/
-│
-├── diabetes.csv # Dataset file
-├── diabetes_prediction.py # Main ML script
-├── model.pkl # Serialized trained model
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
-
 ## ⚙️ Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/diabetes-prediction.git
-cd diabetes-prediction
+git clone https://github.com/allwin107/Diabetes-Prediction-using-Machine-Learning.git
+cd Diabetes-Prediction-using-Machine-Learning
 ```
 2. Install dependencies:
 
@@ -53,7 +42,7 @@ python diabetes_prediction.py
 Make sure diabetes.csv is in the same directory as the script.
 
 ## ✅ Accuracy
-The SVM model achieved good accuracy on the test data (you can replace this with your exact accuracy, e.g., 78%).
+The SVM model achieved good accuracy on the test data 78%.
 
 ## 💾 Model Saving
 The trained model is saved using pickle for later use in deployment or integration into applications.
